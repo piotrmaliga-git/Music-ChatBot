@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<meta name="author" content="Piotr Maliga"/>
+<meta name="language" content="en"/>
+
+<!--____________________________Music ChatBot_________________________________-->
+    
+<!--______________________________Goodbye_____________________________________-->
+
+<category>
+    <pattern>I have to go</pattern>
+    <template>
+        <random>
+            <li>See you later <get name="username"/></li>
+            <li>Goodbye <get name="username"/></li>
+            <li>Until next time <get name="username"/></li>
+            <li>Thanks for chatting, <get name="username"/></li>
+            <li>See you later <get name="username"/></li>
+        </random>
+        <br/>
+        <random>
+            <li>Have a nice day!</li>
+            <li>Take care!</li>
+            <li>Take care!</li>
+            <li>Be Cool!</li>
+        </random>
+        <random>
+            <li> 🙂</li>
+            <li> 😃</li>
+            <li> 😁</li>
+            <li> ☺️</li>
+            <li> 😚</li>
+            <li> 😉</li>
+            <li>
+                <image>https://thumbs.gfycat.com/DangerousSociableGalago-size_restricted.gif</image>
+            </li>
+            <li> 
+                <image>https://i.gifer.com/W1ph.gif</image>
+            </li>
+            <li> 
+                <image>https://gifs.cackhanded.net/bring-it-on/buh-bye.gif</image>
+            </li>
+            <li>
+                <image>https://monophy.com/media/49HF2YLLFue8W0WlbG/monophy.gif</image>
+            </li>
+        </random>
+    </template>
+</category>
+    
+<category>
+    <pattern>I need to go</pattern>
+    <template>
+        <srai>I have to go</srai>
+    </template>
+</category>
+   
+<category>
+    <pattern>Goodbye</pattern>
+    <template>
+        <srai>I have to go</srai>
+    </template>
+</category>
+    
+<category>
+    <pattern>Bye</pattern>
+    <template>
+       <srai>I have to go</srai>
+    </template>
+</category>
+    
+<category>
+    <pattern>Wotcha</pattern>
+    <template>
+        <srai>I have to go</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Goodbye ChatBot</pattern>
+    <template>
+        <srai>I have to go</srai>
+    </template>
+</category>
+    
+<category>
+    <pattern>Bye ChatBot</pattern>
+    <template>
+       <srai>I have to go</srai>
+    </template>
+</category>
+    
+<category>
+    <pattern>Wotcha ChatBot</pattern>
+    <template>
+        <srai>I have to go</srai>
+    </template>
+</category>
+</aiml>
