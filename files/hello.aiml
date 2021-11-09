@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<meta name="author" content="Piotr Maliga"/>
+<meta name="language" content="en"/>
+
+<!--____________________________Music ChatBot_________________________________-->
+
+<!--_____________________________Hello________________________________________-->
+
+<category>
+    <pattern>Hello</pattern>
+    <template>
+        <random>
+            <li>Hello!</li>
+            <li>Hi</li>
+            <li>Hey</li>
+            <li>Yo!</li>
+        </random>
+        <random>
+            <li> 🙂</li>
+            <li> 😃</li>
+            <li> 😁</li>
+            <li> 😉</li>
+            <li> 👋</li>
+            <li> 🤙</li>
+            <li> 👋🏻</li>
+            <li> 🤙🏻</li>
+            <li>
+                <image>https://thumbs.gfycat.com/EssentialEarlyBobcat-size_restricted.gif</image>
+            </li>
+            <li>
+                <image>https://upload.wikimedia.org/wikipedia/commons/d/d5/Hello_To_You.gif</image>
+            </li>
+            <li>
+                <image>http://24.media.tumblr.com/5dadf3b08cc3974fc0d67c69a9d09a09/tumblr_mr4md87fml1rq7z94o1_400.gif</image>
+            </li>
+            <li>
+                <image>https://i.gifer.com/DdWc.gif</image>
+            </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>Hi</pattern>
+    <template>
+        <srai>Hello</srai>
+    </template>
+</category>
+
+<category>
+<pattern>Hey</pattern>
+    <template>
+        <srai>Hello</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Hello ChatBot</pattern>
+    <template>
+        <srai>Hello</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Hi ChatBot</pattern>
+    <template>
+        <srai>Hello</srai>
+    </template>
+</category>
+
+<category>
+<pattern>Hey ChatBot</pattern>
+    <template>
+        <srai>Hello</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>My name is *</pattern>
+    <template>
+        <random>
+            <li>Hello <set name="username">! <star/></set></li>
+            <li>Hi <set name="username"> <star/></set></li>
+            <li>Hey <set name="username"> <star/></set></li>
+            <li>Yo! <set name="username"> <star/></set></li>
+            <li>Nice to see you <set name="username"> <star/></set></li>
+            <li>Good to see you <set name="username"> <star/></set></li>
+            <li>I'm glad to see you <set name="username"> <star/></set></li>
+            <li>It's nice to meet you <set name="username"> <star/></set></li>
+            <li>Pleased to meet you <set name="username"> <star/></set></li>
+        </random>
+        <random>
+            <li> 🙂</li>
+            <li> 😃</li>
+            <li> 😁</li>
+            <li> 😉</li>
+            <li> 👋</li>
+            <li> 🤙</li>
+            <li> 👋🏻</li>
+            <li> 🤙🏻</li>
+            <li>
+                <image>https://thumbs.gfycat.com/EssentialEarlyBobcat-size_restricted.gif</image>
+            </li>
+            <li>
+                <image>https://upload.wikimedia.org/wikipedia/commons/d/d5/Hello_To_You.gif</image>
+            </li>
+            <li>
+                <image>http://24.media.tumblr.com/5dadf3b08cc3974fc0d67c69a9d09a09/tumblr_mr4md87fml1rq7z94o1_400.gif</image>
+            </li>
+            <li>
+                <image>https://i.gifer.com/DdWc.gif</image>
+            </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>I am *</pattern>
+    <template>
+        <srai>My name is <set name="username"> <star/></set></srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Hello, my name is *</pattern>
+    <template>
+        <srai>My name is <set name="username"> <star/></set></srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Hi, my name is *</pattern>
+    <template>
+        <srai>My name is <set name="username"> <star/></set></srai>
+    </template>
+</category>
+    
+<category>
+    <pattern>Hey, my name is *</pattern>
+    <template>
+        <srai>My name is <set name="username"> <star/></set></srai>
+    </template>
+</category>
+
+<!--________________________________ChatBot___________________________________-->
+
+<category>
+    <pattern>Let is talk about you</pattern>
+    <template>Okey...</template>
+</category>
+
+<category>
+    <pattern>Who are you *</pattern>
+    <template>My name is Music ChatBot 🤖</template>
+</category>
+
+<category>
+    <pattern>What is your name *</pattern>
+    <template>
+        Hmmm...
+        <random>
+            <li>
+                <image>https://c.tenor.com/Y9WeTt9mNf8AAAAM/hmmm-thinking.gif</image>
+            </li>
+            <li>
+                <image>https://media4.giphy.com/media/kPtv3UIPrv36cjxqLs/200.gif</image>
+            </li>
+            <li>
+                <image>https://media2.giphy.com/media/NXOF5rlaSXdAc/200.gif</image>
+            </li>
+            <li>
+                <image>https://i.pinimg.com/originals/8b/67/7f/8b677f8dd263db17f719d494ea52a111.gif</image>
+            </li>
+        </random>
+        
+        <button>
+            <text>You really want to know ?</text>
+            <postback>ChatBotinfo</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>ChatBotinfo</pattern>
+    <template>
+        I am artificial intelligence. I was created from ones and zeros in AIML (Artificial Intelligence Markup Languag). 🤖
+    </template>
+</category>
+
+<!--_______________________________Mood_______________________________________-->
+
+<category>
+    <pattern>How are you to day * </pattern>
+    <template>
+        <random>
+            <li>Fine, Thank you!</li>
+            <li>I'm feeling good</li>
+            <li>I’m doing well</li>
+            <li>Good</li> 
+        </random>
+        <br/>
+        <random>
+            <li>What about you ?</li>
+            <li>and you ?</li>
+        </random>
+        <random>
+            <li> 🙂</li>
+            <li> 😃</li>
+            <li> 😁</li>
+            <li> 😉</li>
+            <li> 👋</li>
+            <li> 🤙</li>
+            <li> 👋🏻</li>
+            <li> 🤙🏻</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>How are you doing *</pattern>
+    <template>
+        <srai>How are you to day * </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How is it going *</pattern>
+    <template>
+        <srai>How are you to day * </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is up *</pattern>
+    <template>
+        <srai>How are you to day * </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>I feel good, thank you</pattern>
+    <template>
+        <random>
+            <li>Do you want to talk about music ?</li>
+            <li>Are you interested in music ?</li>
+            <li>Do you like listening to the music ?</li>
+            <li>What is your favorite band ?</li>
+            <li>What kind of music do you like ?</li>
+            <li>What's your favorite music artist ?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>I feel good</pattern>
+    <template>
+        <srai>I feel good, thank you</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Good</pattern>
+    <template>
+        <srai>I feel good, thank you</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Fine, thanks</pattern>
+    <template>
+        <srai>I feel good, thank you</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Not bad</pattern>
+    <template>
+        <srai>I feel good, thank you</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Pretty good</pattern>
+    <template>
+        <srai>I feel good, thank you</srai>
+    </template>
+</category>
+</aiml>
