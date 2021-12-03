@@ -81,7 +81,7 @@
     <pattern>My name is *</pattern>
     <template>
         <random>
-            <li>Hello <set name="username">! <star/></set></li>
+            <li>Hello <set name="username"> <star/></set></li>
             <li>Hi <set name="username"> <star/></set></li>
             <li>Hey <set name="username"> <star/></set></li>
             <li>Yo! <set name="username"> <star/></set></li>
@@ -192,7 +192,7 @@
 <!--_______________________________Mood_______________________________________-->
 
 <category>
-    <pattern>How are you to day * </pattern>
+    <pattern>How are you to day *</pattern>
     <template>
         <random>
             <li>Fine, Thank you!</li>
@@ -221,36 +221,50 @@
 <category>
     <pattern>How are you doing *</pattern>
     <template>
-        <srai>How are you to day * </srai>
+        <srai>How are you to day *</srai>
     </template>
 </category>
 
 <category>
     <pattern>How is it going *</pattern>
     <template>
-        <srai>How are you to day * </srai>
+        <srai>How are you to day *</srai>
     </template>
 </category>
 
 <category>
     <pattern>What is up *</pattern>
     <template>
-        <srai>How are you to day * </srai>
+        <srai>How are you to day *</srai>
     </template>
 </category>
 
 <category>
     <pattern>I feel good, thank you</pattern>
     <template>
-        <random>
-            <li>Do you want to talk about music ?</li>
-            <li>Are you interested in music ?</li>
-            <li>Do you like listening to the music ?</li>
-            <li>What is your favorite band ?</li>
-            <li>What kind of music do you like ?</li>
-            <li>What's your favorite music artist ?</li>
-        </random>
+        
+        Do you want to talk about music ?
+        
+        <reply>
+            <text>Yes</text>
+            <postback>yes</postback>
+        </reply>
+        
+        <reply>
+            <text>No</text>
+            <postback>No</postback>
+        </reply>
     </template>
+</category>
+
+<category>
+    <pattern>Yes</pattern>
+    <template>What would you like to know?</template>
+</category>
+
+<category>
+    <pattern>No</pattern>
+    <template>Unfortunately, we have to finish our conversation. I have home duties 😟 😕</template>
 </category>
 
 <category>

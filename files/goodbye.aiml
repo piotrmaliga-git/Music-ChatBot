@@ -15,7 +15,7 @@
             <li>See you later <get name="username"/></li>
             <li>Goodbye <get name="username"/></li>
             <li>Until next time <get name="username"/></li>
-            <li>Thanks for chatting, <get name="username"/></li>
+            <li>Thanks for chatting <get name="username"/></li>
             <li>See you later <get name="username"/></li>
         </random>
         <br/>
