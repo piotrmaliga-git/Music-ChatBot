@@ -152,12 +152,12 @@
 </category>
 
 <category>
-    <pattern>Who are you *</pattern>
+    <pattern>What is your name *</pattern>
     <template>My name is Music ChatBot 🤖</template>
 </category>
 
 <category>
-    <pattern>What is your name *</pattern>
+    <pattern>Who are you *</pattern>
     <template>
         Hmmm...
         <random>
