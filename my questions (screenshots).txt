@@ -1,0 +1,46 @@
+Hello, my name is Peter
+What is your name ?
+Let is talk about you
+Who are you ?
+(1 screen)
+
+How are you to day ?
+I feel good, thank you
+(2 screen)
+
+Tell me something about music genres
+Where can I find a database of music bands discography ?
+(3 screen)
+
+What's your favorite bands ?
+Tell me a little more about these bands
+(4 screen)
+
+What is The Beatles ?
+What does the Pink Floyd logo look like ?
+(5 screen)
+
+What about top Polish bands ?
+Tell me more about these Polish bands
+(6 screen)
+
+What does Dżem logo look like ?
+What does Perfect logo look like ?
+(7 screen)
+
+What music streaming services do you know ?
+What is Deezer ?
+What does the Deezer logo look like ?
+(8 screen)
+
+Have you got link to the Spotify website ?
+I have to go
+(9 screen)
+
+-----------------------------------------------
+
+Hi
+I am Peter
+How is it going ?
+Fine, thanks
+(1ds screen)
