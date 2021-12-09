@@ -20,35 +20,35 @@ I have created a Music Chatbot based on AIML (XML Based Markup Language). I crea
 
 ## Screenshots
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/1.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/1.png" alt="">
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/2.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/2.png" alt="">
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/3.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/3.png" alt="">
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/4.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/4.png" alt="">
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/4.1.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/4.1.png" alt="">
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/4.2.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/4.2.png" alt="">
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/5.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/5.png" alt="">
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/6.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/6.png" alt="">
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/7.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/7.png" alt="">
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/8.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/8.png" alt="">
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/9.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/9.png" alt="">
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/10.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/10.png" alt="">
 
 <br/>
 
 ## Different start (If you don't want to talk about music)
 
-<img src="https://github.com/piotrmaliga-git/Music-ChatBot/tree/main/screenshots/1ds.png" alt="">
+<img src="https://github.com/piotrmaliga-git/Music-ChatBot/blob/main/screenshots/1ds.png" alt="">
 
 # Developing
 
